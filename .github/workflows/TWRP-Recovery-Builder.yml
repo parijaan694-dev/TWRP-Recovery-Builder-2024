@@ -174,7 +174,7 @@ jobs:
 
           else
             echo "No Recovery file found!"
-            cd Exit
+            exit 1
         fi
 
     - name: Include Recovery Installer
